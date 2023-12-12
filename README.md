@@ -1,6 +1,6 @@
-# [ATLAS Analysis Program]
+# ATLAS Analysis Program
 
-[A processing system which can analyse ATLAS data using cloud tools such as docker compose was developed. It can configure itself automatically with minimum human intervention except for specifying the amount of workers and preparing the correct directory. It performs the analysis processing in a distributed fashion using multiple nodes and generates plots for Higgs analysis as well as showing potential for scaling to larger systems and data sets.]
+A processing system which can analyse ATLAS data using cloud tools such as docker compose was developed. It can configure itself automatically with minimum human intervention except for specifying the amount of workers and preparing the correct directory. It performs the analysis processing in a distributed fashion using multiple nodes and generates plots for Higgs analysis as well as showing potential for scaling to larger systems and data sets.
 
 ## Table of Contents
 - [Installation](#installation)
