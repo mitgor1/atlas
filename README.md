@@ -5,7 +5,6 @@
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
-- [License](#license)
 - [Contact](#contact)
 
 
@@ -69,5 +68,10 @@ docker-compose build --no-cache
 Without using cache, this builds the docker images specified in the docker-compose file. This ensures that the most recent versions of images are used, as Docker occasionally runs older versions of code through the cache memory.
 
 
+## Contact
 
-  
+Please contact if you have any questions or need more information:
+
+- **Name:** Mit Gor
+- **Email:** [qe20651@bristol.ac.uk](mailto:qe20651@bristol.ac.uk)
+
