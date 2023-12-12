@@ -14,6 +14,7 @@ Steps to install your project:
 1. Clone the repo
 2. Install Docker Desktop on your system
 3. Ensure the directory is in the correct format and order as shown below:
+`````
 Docker/
 ├── Plotting/
 │   ├── Dockerfile
@@ -26,7 +27,7 @@ Docker/
 ├── docker-compose.yml
 ├── infofile.py
 └── program.py
-
+`````
 ## Usage
 
 ### Getting Started
@@ -45,7 +46,7 @@ Whether the environment should be prepared before running the programme.
 
 ### Environment Preparation (Optional)
 
-Preparing the environment is optional because it involves deleting all unused docker containers, items, and networks; however, it is useful because you may encounter network issues if the correct network is not created, as well as other docker memory issues. The following are the commands executed by the programme to prepare the environment:
+Preparing the environment is mainly optional except for the initial network creation. It involves deleting all unused docker containers, items, and networks; however, it is useful because you may encounter network issues if the correct network is not created, as well as other docker memory issues. The following are the commands executed by the programme to prepare the environment:
 
 ```bash
 docker system prune -f
