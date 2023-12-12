@@ -13,7 +13,7 @@ A processing system which can analyse ATLAS data using cloud tools such as docke
 Steps to install your project:
 1. Clone the repo
 2. Install Docker Desktop on your system
-3. Ensure the directory is in the correct format and order as shown below:
+3. Ensure the directory is in the correct format and order as shown below or as seen in the masters branch:
 `````
 Docker/
 ├── Plotting/
@@ -31,7 +31,7 @@ Docker/
 ## Usage
 
 ### Getting Started
-You are now ready to run the application after successfully installing and configuring the project as described in the installation section. Make sure your directory structure matches the one in the repository.
+You are now ready to run the application after successfully installing and configuring the project as described in the installation section. Make sure your directory structure matches the one in the repository, all the necessary files can be accessed from the master branch.
 
 ### Running the Application
 Start the application by typing the following command into your terminal:
