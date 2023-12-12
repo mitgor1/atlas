@@ -1,0 +1,35 @@
+version: "3.8"
+
+services:
+  reading:
+    build:
+      context: .
+      dockerfile: Reading/Dockerfile
+    volumes:
+      - type: bind
+        source: ./sharer
+        target: /mydir/process_info
+    environment:
+      - WORKER_BEGINNING
+      - SAMPLE
+      - WORKER_ID
+      - WORKER_END
+    networks:
+      - mit
+
+  plotting:
+    build:
+      context: .
+      dockerfile: Plotting/Dockerfile
+    volumes:
+      - type: bind
+        source: ./sharer
+        target: /mydir/process_info
+    depends_on:
+      - reading
+    networks:
+      - mit
+
+networks:
+  mit:
+    external: true
